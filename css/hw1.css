@@ -1,7 +1,8 @@
 .left{
 	
 	width: 20%;
-	background-color: #777613;
+	height: 100%;
+	background-color: #cfd6de;
 	padding: 0px 0px 30px 0px;
 	margin: 0px 0px 0px 10px;
 	float: left;
@@ -16,6 +17,13 @@
 	text-align: left;
 	float: right;
 	
+}
+
+body{
+
+	color: #fffff4;
+	background-color: #1e2222;
+
 }
 	
 img{
@@ -52,7 +60,7 @@ nav a{
 	display: inline-block;
 	text-decoration: none;
 	color: #000000;
-	background-color: rgba(255, 255, 255, 0.2);
+	background-color: rgba(17, 14, 14, 0.2);
 	border: 10px solid rgba(255, 255, 255, 0);
 	border-radius: 5px;
 	padding: 5px 50px;
@@ -64,9 +72,9 @@ nav a.active{
 
 	display: inline-block;
 	text-decoration: none;
-	color: #003366;
+	color: #4499bb;
 	font-weight: bold;
-	background-color: rgba(255, 255, 255, 1);
+	background-color: rgba(0, 0, 0, 1);
 	border: 10px solid rgba(255, 255, 255, 0);
 	border-radius: 5px;
 	padding: 5px 50px;
@@ -130,5 +138,9 @@ th:nth-child(2){
 th:nth-child(3){
 	
 	text-align: center;
+	
+}
+
+@media all and (max-width: 900px){
 	
 }
