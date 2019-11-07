@@ -12,7 +12,6 @@
 .right{
 	
 	width: 75%;
-	/*color: #8db2e5;*/
 	margin: 0% 1% 0% 0%;
 	text-align: left;
 	float: right;
@@ -62,7 +61,7 @@ nav a{
 	background-color: rgba(17, 14, 14, 0.2);
 	border: 10px solid rgba(255, 255, 255, 0);
 	border-radius: 5px;
-	padding: 5px 50px;
+	padding: 5px 5%;
 	margin: 0% 3% 3%;
 	
 }
@@ -82,7 +81,7 @@ nav a.active{
 	background-color: rgba(0, 0, 0, 1);
 	border: 10px solid rgba(255, 255, 255, 0);
 	border-radius: 5px;
-	padding: 5px 50px;
+	padding: 5px 5%;
 	margin: 0px 40px 40px;
 	
 }
@@ -152,6 +151,57 @@ th:nth-child(3){
 	
 }
 
-@media all and (max-width: 900px){
+@media all and (max-width: 1010px){
 	
+	nav a{
+	
+	padding: 5px 1%;
+	
+	}
+
+	nav a.active{
+
+	padding: 5px 1%;
+	
+	}
+}
+
+@media all and (max-width: 600px){
+	
+	nav{
+		
+	}
+	
+	nav a{
+	
+	display: inline-block;
+	text-decoration: none;
+	color: #000000;
+	background-color: rgba(17, 14, 14, 0.2);
+	border: 10px solid rgba(255, 255, 255, 0);
+	border-radius: 5px;
+	padding: 5px 30px;
+	margin: 0% 3% 3%;
+	
+	}
+
+	nav a:hover{
+	
+	background-color: rgba(100, 100, 100, 0.5);
+	
+	}
+
+	nav a.active{
+
+	display: inline-block;
+	text-decoration: none;
+	color: #444444 /*#4499bb*/;
+	font-weight: bold;
+	background-color: rgba(0, 0, 0, 1);
+	border: 10px solid rgba(255, 255, 255, 0);
+	border-radius: 5px;
+	padding: 5px 30px;
+	margin: 0% 3% 3%;
+	
+	}
 }
